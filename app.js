@@ -157,9 +157,12 @@ Item.find(function (err, item) {
         });
     }
 });
+let port = process.env.PORT;
+if (port == null || port == "") {
+    port = 3000;
+  }
+app.listen(port, function () {
 
-app.listen(3000, function () {
-
-    console.log("We are live on page 3000");
+    console.log("We are live !!!");
 
 });
