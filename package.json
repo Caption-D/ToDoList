@@ -1,0 +1,22 @@
+{
+  "name": "todolist-v1",
+  "version": "1.0.0",
+  "description": "This is a to do list using server and internet and will have backend and front end and will look professional and will have heavy styling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Drumil Haresh Ved",
+  "license": "ISC",
+  "engines": {
+    "node": "16.14.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.5.2"
+  }
+}
